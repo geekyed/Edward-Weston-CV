@@ -1,5 +1,5 @@
 # Edward James Weston
-TODO NEW INTRO.
+I am a self motivated software developer. I like to read and try to constantly improve my technical knowledge and soft skills. Where I find something interesting, I share this knowledge with my colleagues during our learning sessions. I enjoy working with members of other dev teams, product teams and management teams to ensure we do the right thing at the time. I am a believer in the agile development approach, I think small commits and frequent small releases is important to reduce issues and decrease time to deliver. Our relationships at work are critical to helping each other succeed and thus succeeding as a company. I like to remain open to feedback from my colleagues and hope that they feel comfortable giving me feedback too.
 
 <div id="webaddress">
 <a href="mailto:eddweston@me.com">eddweston@me.com</a>
@@ -8,11 +8,9 @@ TODO NEW INTRO.
 
 ## Employment
 
-
-`2013 - Present`
-__Vonage (Previously NewVoiceMedia)__
-
-_Senior Software Engineer_
+### Vonage _(2013 - Now)_
+ 
+ `Senior Software Engineer`
 
 Throughout my time at Vonage I have progressed through many different teams with an ever-evolving role. 
 
@@ -27,19 +25,16 @@ Throughout my time at Vonage I have progressed through many different teams with
 - Due to a shift in the department to more stream aligned teams, my team was merged with another. The teams domain was assigned as the Agent Experience. I think my efforts to organize and update this area of the product had an impact on this decision. Whilst in this team I have taken opportunities to lead technically with WebRTC and work in the UI as well as more generally in the team, gaining a promotion recognizing these efforts.
 
 
-TODO: Add more content and review.
+### Hewlett Packard _(2011 - 2013)_
 
-`2011 - 2013`
-__Hewlett Packard__
-
-_Software Developer_
+`Software Developer`
 
 - In this role, I developed parts of a new multi-threaded component in C++ on Red Hat Enterprise Linux. I gained knowledge in object orientated design patterns and experience in unit testing using GoogleTest and GoogleMock. While in this team I took responsibility for the maintenance and improvement of the team Jenkins server. I used this to automate Bullseye and Coverity builds for the department.
 
-`2007 - 2008`
-__Intel Corporation UK__
 
-_Technical Marketing Engineer_
+### Intel Corporation UK _(2007 - 2008)_
+
+`Technical Marketing Engineer`
 
 - I completed a year’s work for Intel as my placement year in between my studies. During this year I had two main roles. The first was supporting the performance benchmarking team within the UK. The second half of this year was spent with a different team setting up and running enterprise benchmarks.
 
@@ -47,15 +42,12 @@ _Technical Marketing Engineer_
 
 ## Education
 
-
-`2005 – 2009`
-__Loughborough University__
+### Loughborough University _(2005 – 2009)_
 
 _BEng Electronic and Electrical Engineering - 2:1 Honours_
 
 
-`1998 - 2005`
-__Henry Box School, Oxfordshire__
+### Henry Box School, Oxfordshire _(1998 - 2005)_
 - A-levels (2005) ICT(C), Geography(C), Biology(D)
 - AS-level (2004) Maths(E)
 - GCSE (2002) 10 total, including Maths(A), English(B), Science (A)
@@ -65,16 +57,16 @@ __Henry Box School, Oxfordshire__
 ## Skills
 
 ### Languages, Frameworks and Platforms
-C#, .net, JavaScript, Typescript, React, Redux, MySQL, AWS
+C#, .net, JavaScript, Typescript, React, Redux, Docker, MySQL, Microservices, AWS
 
 ### Software
 Microsoft Visual Studio, VSCode, Svn, Git
 
 ### Operating Systems
-macOS (everyday use), Windows , Red Hat Enterprise Linux (previously RHCSA qualified).
+macOS (everyday use), Windows 7 - 11, Red Hat Enterprise Linux (previously RHCSA qualified).
 
 <hr/>
 
 ## Interests
 
-In my spare time I enjoy running, playing computer games, and spending time with my children.
+In my spare time I enjoy running, playing computer games, and spending time with my family.
