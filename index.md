@@ -2,7 +2,7 @@
 
 <eddweston@me.com>
 
-I am a self motivated software developer. I like to read and try to constantly improve my technical knowledge and soft skills. Where I find something interesting, I share this knowledge with my colleagues during our learning sessions. I enjoy working with members of other dev teams, product teams and management teams to ensure we do the right thing at the time. I am a believer in the agile development approach, I think small commits and frequent small releases is important to reduce issues and decrease time to deliver. I like to take on larger projects where I see technological impediments or process issues in the wider department. Our relationships at work are critical to helping each other succeed and thus succeeding as a company. I like to remain open to feedback from my colleagues and hope that they feel comfortable giving me feedback too.
+I am a self-motivated software developer. I strive to improve my technical knowledge and soft skills through reading and research. Where I find something interesting, I share this with my colleagues during our learning sessions. I enjoy working with members of other development teams, as well as the product and management teams to ensure we deliver the right product to our customers. I am a believer in the agile development approach. I think small commits and frequent small releases are important to reduce issues and decrease the time to deliver. I like to take on larger projects where I see technological impediments or process issues in the wider department. Our relationships at work are critical to helping each other succeed and the success of our company. I seek regular feedback from my colleagues and regularly reflect on interactions within my current team and beyond.
 
 ***
 
