@@ -22,7 +22,7 @@ Throughout my time at Vonage I have progressed and broadened my experience throu
 
 - This team merged with another and my responsibilities widened. I was now part of a team that owned most of the services and browser extensions that support our most used UI, our UI for contact centre agents. As the team developed I pushed for improvements to the performance of this interface. I also extracted its core code from our monolith, enabling us to deploy it independently. Having identified an issue with communication between teams involved on this project, I set up a community of interest to allow us to share best practice and the future vision of the project. Around the time NVM were acquired by Vonage, I quickly took the opportunity to try and use the RTC offering from another company that Vonage had purchased, I convinced the business to allow our team to implement the work properly, saving us $3-4m a year that we were spending with our competitor at the time.
 
-- Due to a shift in the department to more stream aligned teams, my team was merged with another. The teams domain was assigned as the Agent Experience. I think my efforts to organize and update this area of the product had an impact on this decision. Whilst in this team I have taken opportunities to lead technically with WebRTC and work in the UI as well as more generally in the team, gaining a promotion recognizing these efforts.
+- Due to a shift in the department to stream-aligned teams, my team was merged with another. The teams domain was assigned as the Agent Experience. My efforts to organize and update this area of the product had an impact on this decision. Whilst in this team I have taken opportunities to lead technically with WebRTC and work in the UI as well as more generally in the team, gaining a promotion recognizing these efforts.
 
 ### Hewlett Packard _(2011 - 2013)_
 
@@ -46,9 +46,9 @@ Throughout my time at Vonage I have progressed and broadened my experience throu
 
 `Henry Box School, Oxfordshire (1998 - 2005)`
 
-- A-levels (2005) ICT(C), Geography(C), Biology(D)
-- AS-level (2004) Maths(E)
-- GCSE (2002) 10 total, including Maths(A), English(B), Science (A)
+- A-levels (2005) ICT (C), Geography (C), Biology (D)
+- AS-level (2004) Maths (E)
+- GCSE (2002) 10 total, including Maths (A), English (B), Science (A)
 
 ***
 
@@ -60,7 +60,7 @@ C#, .net, JavaScript, Typescript, React, Redux, Docker, MySQL, Microservices, AW
 
 ### Software
 
-Microsoft Visual Studio, VSCode, Svn, Git
+Microsoft Visual Studio, VS Code, Svn, Git
 
 ### Operating Systems
 
