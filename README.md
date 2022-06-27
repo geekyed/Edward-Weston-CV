@@ -1,2 +1,2 @@
 # Edward-Weston-CV
-This is my CV, view is github pages for a mode readable view.
+This is my CV, view in github pages for a more readable view.
