@@ -1,0 +1,16 @@
+index.html
+  h_4b2a3dad7aa24f 21-22,26,28,34,36,39,41,43,47,49,53,55,57,62,66,69,71,75
+index.md
+  h_4b2a3dad7aa24f 5,7,15,19,25,27,31,33,35,39,41,45,47,49,55,61,67,69,77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cac9fb700f921af748b13365c3c3d99227023a5a",
+  "prompts": {},
+  "humans": {
+    "h_4b2a3dad7aa24f": {
+      "author": "Ed Weston <eddweston@me.com>"
+    }
+  }
+}
