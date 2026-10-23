@@ -18,13 +18,13 @@ Throughout my time at Vonage I have progressed through different teams and roles
 
 Since being promoted to Staff Architect, I have focused on cross-functional leadership and architectural governance alongside my team based responsibilities;
 
+* Architecture Review Process: Introduced a periodic architecture review of each team-owned domain, built around interactive sessions with the whole team. Findings become actionable tickets in the teams' non-feature backlogs, and the administration is automated with an agentic AI workflow that is now shared with the wider architecture group.
+
+* Non-Feature Work Prioritisation: Introduced a unified process for prioritising non-feature work (tech debt, vulnerabilities, availability and bugs) across my teams, so that time is allocated to the right tickets. Gained buy-in from the Director and Engineering Managers.
+
+* Component Reliability Categorisation: Designed and am rolling out a framework that classifies every platform component into reliability tiers with matching availability targets and declared dependencies. This ensures the most critical components are also the most resilient, improving the availability of the platform.
+
 * I am the Architecture lead for a very successful new agent user interface project released in 2025, which involved coordinating between teams in 4 geographies and earned me a Top Performance award from our parent company.
-
-* Organizational Design: Assisted the Stream Director in re-allocating technical domains to improve team autonomy and delivery speed.
-
-* Governance & Consistency: Led a department-wide initiative to standardize architecture checkpoints, ensuring consistent high-quality output across different workstreams.
-
-* Regulatory Compliance: Audited and improved internal processes to ensure technical systems comply with new government legislation.
 
 #### `Senior Software Architect (2022 - 2024)`
 
