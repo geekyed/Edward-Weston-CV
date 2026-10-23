@@ -1,5 +1,5 @@
 <!doctype html><html lang="en-GB"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Edward James Weston - CV</title><meta name="description" content="CV of Edward James Weston, Senior Software Engineer"><style>
-:root{color-scheme:light;--b:#2f5bff}
+:root{color-scheme:light;--b:#2f5bff;--i:13rem}
 body{font:16px/1.5 Arial,"Liberation Sans",Helvetica,sans-serif;max-width:62rem;margin:0 auto;padding:1.5rem 1.2rem 3rem;color:#111;background:#f5f2ea;position:relative}
 a{color:#111;text-decoration:none;background:linear-gradient(var(--b),var(--b)) 0 100%/100% 2px no-repeat;transition:background-size .2s,color .2s}
 a:hover{background-size:100% 100%;color:#fff}
@@ -11,17 +11,16 @@ h1{text-align:center;font-size:clamp(2rem,6vw,3.2rem);line-height:1;letter-spaci
 .r p a:hover{color:#111}
 header p{font-size:1.1rem;margin:0 0 1rem}
 section{border-top:1px solid #111;padding:1.4rem 0 .6rem;margin-top:1.5rem}
-section>:not(h2){margin-left:13rem}
+section>:not(h2){margin-left:var(--i)}
 h2{font-size:.75rem;text-transform:uppercase;letter-spacing:.14em;margin:0 0 1.2rem}
 h2:before{content:"";display:inline-block;width:.6em;height:.6em;background:var(--b);margin-right:.6em}
-h3{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;font-size:1rem;margin:0 0 .4rem}
+h3{display:flex;align-items:baseline;gap:1rem;font-size:1rem;margin:0 0 .4rem}
 section:nth-of-type(1) h3{font-size:1.6rem;letter-spacing:-.02em;margin-top:1.4rem}
 section:nth-of-type(1) h3:first-of-type{margin-top:0}
 h4{font-size:1rem;margin:1.3rem 0 .3rem}
-code{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;font:inherit}
+code{display:flex;align-items:baseline;gap:1rem;font:inherit}
 h4 code,p>code{font-weight:700}
-time{color:var(--b);font-weight:300;font-size:1rem;white-space:nowrap}
-h3 time{font-size:1.4rem}
+time{order:-1;flex:none;width:calc(var(--i) - 2rem);margin:0 1rem 0 calc(-1*var(--i));color:var(--b);font-size:1rem;font-weight:400;font-variant-numeric:tabular-nums;white-space:nowrap}
 p{margin:0 0 .8rem}
 ul{padding-left:1.1rem;margin:0 0 .8rem}
 li{margin-bottom:.6rem}
@@ -30,8 +29,8 @@ li>p{margin:0}
 .d{display:block;margin:0;background:var(--b);color:#fff;padding:.5rem 1.1rem;font-size:.85rem;font-weight:700}
 .d:hover{background:#111}
 @media(prefers-reduced-motion:no-preference){@keyframes u{from{opacity:0;transform:translateY(14px)}}header,section{animation:u .6s both}section:nth-of-type(2){animation-delay:.1s}section:nth-of-type(3){animation-delay:.2s}section:nth-of-type(4){animation-delay:.3s}}
-@media(max-width:640px){section>:not(h2){margin-left:1rem}}
-@media print{@page{size:A4;margin:14mm}*{print-color-adjust:exact;-webkit-print-color-adjust:exact;animation:none!important}body{font-size:9.5pt;line-height:1.4;padding:0;max-width:none;background:#fff}section>:not(h2){margin-left:40mm}h2{letter-spacing:.08em;font-size:7.5pt;margin-bottom:3mm}h1{font-size:24pt}header p{font-size:10.5pt}section{margin-top:5mm;padding-top:4mm}section:nth-of-type(1) h3{font-size:14pt}h3 time{font-size:12pt}.d{display:none}h3,h4{break-after:avoid}li,h3{break-inside:avoid}}
+@media(max-width:640px){:root{--i:1rem}h3,code{flex-wrap:wrap;gap:0 1rem}time{order:1;width:100%;margin:0}}
+@media print{@page{size:A4;margin:14mm}:root{--i:40mm}*{print-color-adjust:exact;-webkit-print-color-adjust:exact;animation:none!important}body{font-size:9.5pt;line-height:1.4;padding:0;max-width:none;background:#fff}section>:not(h2){margin-left:var(--i)}h2{letter-spacing:.08em;font-size:7.5pt;margin-bottom:3mm}h1{font-size:24pt}time{font-size:9.5pt}header p{font-size:10.5pt}section{margin-top:5mm;padding-top:4mm}section:nth-of-type(1) h3{font-size:14pt}.d{display:none}h3,h4{break-after:avoid}li,h3{break-inside:avoid}}
 </style>
 {{content}}
 </html>
