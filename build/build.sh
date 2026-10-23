@@ -19,7 +19,11 @@ npx --yes marked@15.0.12 --gfm -i index.md > build/content.html
 node -e '
 const fs = require("fs");
 const t = fs.readFileSync("build/template.html", "utf8");
-const c = fs.readFileSync("build/content.html", "utf8").replace(/<\/li>\n<\/ul>/g, "</li></ul>");
+const raw = fs.readFileSync("build/content.html", "utf8").replace(/<\/li>\n<\/ul>/g, "</li></ul>");
+const [head, ...rest] = raw.split(/<hr>\n?/);
+const c = ("<header>" + head + "</header>" + rest.map(s => "<section>" + s + "</section>").join(""))
+  .replace(/<code>(.+?) \(([^)]+)\)<\/code>/g, "<code>$1<time>$2</time></code>")
+  .replace(/ <em>\(([^)]+)\)<\/em>/g, "<time>$1</time>");
 const out = t.replace("{{content}}", () => c)
   .split("\n").map(l => l.trim()).filter(Boolean).join("\n");
 fs.writeFileSync("index.html", out);

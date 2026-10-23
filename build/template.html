@@ -1,20 +1,37 @@
 <!doctype html><html lang="en-GB"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Edward James Weston - CV</title><meta name="description" content="CV of Edward James Weston, Senior Software Engineer"><style>
-:root{color-scheme:light dark;--a:#8a2b2b}
-body{font:17px/1.55 Georgia,"Times New Roman",serif;max-width:42rem;margin:0 auto;padding:2rem 1.2rem;color:#222;background:#fdfcfa}
-a{color:var(--a)}
-h1{font-size:2.2rem;font-variant:small-caps;letter-spacing:.06em;text-align:center;margin:.5rem 0 0;font-weight:400}
-h1+p{text-align:center;margin:0 0 1.5rem;color:#666}
-h2{font-size:.95rem;text-transform:uppercase;letter-spacing:.15em;border-bottom:1px solid #999;padding-bottom:.2rem;margin:1.8rem 0 1rem}
-h3{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;font-size:1.1rem;margin:1.3rem 0 0}
-h3 em,h3+p em{font-weight:400;font-size:.95rem;color:#666}
-p>code{font-family:inherit;font-style:italic;font-variant:small-caps;color:#555}
-hr{display:none}
-ul{padding-left:1.2rem}
+:root{color-scheme:light;--b:#2f5bff}
+body{font:16px/1.5 Arial,"Liberation Sans",Helvetica,sans-serif;max-width:62rem;margin:0 auto;padding:1.5rem 1.2rem 3rem;color:#111;background:#f5f2ea;position:relative}
+a{color:#111;text-decoration:none;background:linear-gradient(var(--b),var(--b)) 0 100%/100% 2px no-repeat;transition:background-size .2s,color .2s}
+a:hover{background-size:100% 100%;color:#fff}
+header,section{display:grid;grid-template-columns:11rem 1fr;column-gap:2rem}
+header>*,section>*{grid-column:2}
+header{border-top:8px solid #111;padding-top:1rem}
+h1{grid-column:1/-1;font-size:clamp(2.8rem,10vw,5.5rem);line-height:.92;letter-spacing:-.04em;font-weight:800;margin:.6rem 0 1rem}
+h1+p{margin:0 0 1.2rem;font-weight:700}
+h1+p a{color:var(--b);background:none}
+h1+p a:hover{color:#111}
+header p{font-size:1.1rem;margin:0 0 1rem;max-width:42rem}
+section{border-top:1px solid #111;padding:1.4rem 0 .6rem;margin-top:1.5rem}
+h2{grid-column:1;grid-row:1;font-size:.75rem;text-transform:uppercase;letter-spacing:.14em;margin:.3rem 0 0}
+h2:before{content:"";display:inline-block;width:.6em;height:.6em;background:var(--b);margin-right:.6em}
+h3{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;font-size:1rem;margin:0 0 .4rem}
+section:nth-of-type(1) h3{font-size:1.6rem;letter-spacing:-.02em;margin-top:1.4rem}
+section:nth-of-type(1) h3:first-of-type{margin-top:0}
+h4{font-size:1rem;margin:1.3rem 0 .3rem}
+code{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;font:inherit}
+h4 code,p>code{font-weight:700}
+time{color:var(--b);font-weight:300;font-size:1rem;white-space:nowrap}
+h3 time{font-size:1.4rem}
+p{margin:0 0 .8rem}
+ul{padding-left:1.1rem;margin:0 0 .8rem}
 li{margin-bottom:.6rem}
+li::marker{color:var(--b)}
 li>p{margin:0}
-.d{float:right;font-size:.85rem}
-@media(prefers-color-scheme:dark){body{background:#181818;color:#ddd}a{color:#e08a8a}h1+p,h3 em,p>code{color:#aaa}h2{border-color:#666}}
-@media print{@page{size:A4;margin:16mm}body{font-size:10.5pt;line-height:1.4;padding:0;max-width:none;color:#000;background:#fff}h1+p,h3 em,p>code{color:#444}a{color:#000;text-decoration:none}.d{display:none}h3,li{break-inside:avoid}h3,h3+p{break-after:avoid}}
+.d{position:absolute;top:1.8rem;right:1.2rem;background:var(--b);color:#fff;padding:.4rem .9rem;font-size:.85rem;font-weight:700;z-index:1}
+.d:hover{background:#111}
+@media(prefers-reduced-motion:no-preference){@keyframes u{from{opacity:0;transform:translateY(14px)}}header,section{animation:u .6s both}section:nth-of-type(2){animation-delay:.1s}section:nth-of-type(3){animation-delay:.2s}section:nth-of-type(4){animation-delay:.3s}}
+@media(max-width:640px){header,section{display:block}h2{margin-bottom:.8rem}.d{top:.8rem}}
+@media print{@page{size:A4;margin:14mm}*{print-color-adjust:exact;-webkit-print-color-adjust:exact;animation:none!important}body{font-size:9.5pt;line-height:1.4;padding:0;max-width:none;background:#fff}header,section{grid-template-columns:34mm 1fr;column-gap:6mm}h2{letter-spacing:.08em;font-size:7.5pt}h1{font-size:34pt}header p{font-size:10.5pt}section{margin-top:5mm;padding-top:4mm}section:nth-of-type(1) h3{font-size:14pt}h3 time{font-size:12pt}.d{display:none}h3,h4{break-after:avoid}li,h3{break-inside:avoid}}
 </style><a class="d" href="Edward-Weston-CV.pdf">Download PDF</a>
 {{content}}
 </html>

@@ -17,6 +17,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Install fonts
+        run: sudo apt-get install -y --no-install-recommends fonts-liberation
       - name: Build index.html and PDF
         run: ./build/build.sh
         env:

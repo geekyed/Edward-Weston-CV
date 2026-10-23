@@ -1,30 +1,46 @@
 <!doctype html><html lang="en-GB"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Edward James Weston - CV</title><meta name="description" content="CV of Edward James Weston, Senior Software Engineer"><style>
-:root{color-scheme:light dark;--a:#8a2b2b}
-body{font:17px/1.55 Georgia,"Times New Roman",serif;max-width:42rem;margin:0 auto;padding:2rem 1.2rem;color:#222;background:#fdfcfa}
-a{color:var(--a)}
-h1{font-size:2.2rem;font-variant:small-caps;letter-spacing:.06em;text-align:center;margin:.5rem 0 0;font-weight:400}
-h1+p{text-align:center;margin:0 0 1.5rem;color:#666}
-h2{font-size:.95rem;text-transform:uppercase;letter-spacing:.15em;border-bottom:1px solid #999;padding-bottom:.2rem;margin:1.8rem 0 1rem}
-h3{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;font-size:1.1rem;margin:1.3rem 0 0}
-h3 em,h3+p em{font-weight:400;font-size:.95rem;color:#666}
-p>code{font-family:inherit;font-style:italic;font-variant:small-caps;color:#555}
-hr{display:none}
-ul{padding-left:1.2rem}
+:root{color-scheme:light;--b:#2f5bff}
+body{font:16px/1.5 Arial,"Liberation Sans",Helvetica,sans-serif;max-width:62rem;margin:0 auto;padding:1.5rem 1.2rem 3rem;color:#111;background:#f5f2ea;position:relative}
+a{color:#111;text-decoration:none;background:linear-gradient(var(--b),var(--b)) 0 100%/100% 2px no-repeat;transition:background-size .2s,color .2s}
+a:hover{background-size:100% 100%;color:#fff}
+header,section{display:grid;grid-template-columns:11rem 1fr;column-gap:2rem}
+header>*,section>*{grid-column:2}
+header{border-top:8px solid #111;padding-top:1rem}
+h1{grid-column:1/-1;font-size:clamp(2.8rem,10vw,5.5rem);line-height:.92;letter-spacing:-.04em;font-weight:800;margin:.6rem 0 1rem}
+h1+p{margin:0 0 1.2rem;font-weight:700}
+h1+p a{color:var(--b);background:none}
+h1+p a:hover{color:#111}
+header p{font-size:1.1rem;margin:0 0 1rem;max-width:42rem}
+section{border-top:1px solid #111;padding:1.4rem 0 .6rem;margin-top:1.5rem}
+h2{grid-column:1;grid-row:1;font-size:.75rem;text-transform:uppercase;letter-spacing:.14em;margin:.3rem 0 0}
+h2:before{content:"";display:inline-block;width:.6em;height:.6em;background:var(--b);margin-right:.6em}
+h3{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;font-size:1rem;margin:0 0 .4rem}
+section:nth-of-type(1) h3{font-size:1.6rem;letter-spacing:-.02em;margin-top:1.4rem}
+section:nth-of-type(1) h3:first-of-type{margin-top:0}
+h4{font-size:1rem;margin:1.3rem 0 .3rem}
+code{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;font:inherit}
+h4 code,p>code{font-weight:700}
+time{color:var(--b);font-weight:300;font-size:1rem;white-space:nowrap}
+h3 time{font-size:1.4rem}
+p{margin:0 0 .8rem}
+ul{padding-left:1.1rem;margin:0 0 .8rem}
 li{margin-bottom:.6rem}
+li::marker{color:var(--b)}
 li>p{margin:0}
-.d{float:right;font-size:.85rem}
-@media(prefers-color-scheme:dark){body{background:#181818;color:#ddd}a{color:#e08a8a}h1+p,h3 em,p>code{color:#aaa}h2{border-color:#666}}
-@media print{@page{size:A4;margin:16mm}body{font-size:10.5pt;line-height:1.4;padding:0;max-width:none;color:#000;background:#fff}h1+p,h3 em,p>code{color:#444}a{color:#000;text-decoration:none}.d{display:none}h3,li{break-inside:avoid}h3,h3+p{break-after:avoid}}
+.d{position:absolute;top:1.8rem;right:1.2rem;background:var(--b);color:#fff;padding:.4rem .9rem;font-size:.85rem;font-weight:700;z-index:1}
+.d:hover{background:#111}
+@media(prefers-reduced-motion:no-preference){@keyframes u{from{opacity:0;transform:translateY(14px)}}header,section{animation:u .6s both}section:nth-of-type(2){animation-delay:.1s}section:nth-of-type(3){animation-delay:.2s}section:nth-of-type(4){animation-delay:.3s}}
+@media(max-width:640px){header,section{display:block}h2{margin-bottom:.8rem}.d{top:.8rem}}
+@media print{@page{size:A4;margin:14mm}*{print-color-adjust:exact;-webkit-print-color-adjust:exact;animation:none!important}body{font-size:9.5pt;line-height:1.4;padding:0;max-width:none;background:#fff}header,section{grid-template-columns:34mm 1fr;column-gap:6mm}h2{letter-spacing:.08em;font-size:7.5pt}h1{font-size:34pt}header p{font-size:10.5pt}section{margin-top:5mm;padding-top:4mm}section:nth-of-type(1) h3{font-size:14pt}h3 time{font-size:12pt}.d{display:none}h3,h4{break-after:avoid}li,h3{break-inside:avoid}}
 </style><a class="d" href="Edward-Weston-CV.pdf">Download PDF</a>
-<h1>Edward James Weston</h1>
+<header><h1>Edward James Weston</h1>
 <p><a href="mailto:eddweston@me.com">eddweston@me.com</a></p>
 <p>I enjoy working with a diverse group of people with different opinions who share a drive to find good solutions. I advocate agile development: shortening feedback loops and encouraging open, honest communication. I believe small commits and frequent small releases reduce risk and shorten the time it takes to deliver value to customers. I take on larger projects where I see technical or process impediments across the wider department.</p>
 <p>I am self-motivated and keep improving my technical knowledge and soft skills through reading, research and personal projects. Strong working relationships are critical to everyone&#39;s success, so I seek regular feedback from colleagues and reflect on my interactions with my teams and others.</p>
-<hr>
-<h2>Employment</h2>
-<h3>Vonage <em>(2013 - Current)</em></h3>
+</header><section><h2>Employment</h2>
+<h3>Vonage<time>2013 - Current</time></h3>
 <p>Throughout my time at Vonage I have progressed through different teams and roles, taking on new challenges as my experience grew.</p>
-<h4><code>Staff Software Architect (2024 - Current)</code></h4>
+<h4><code>Staff Software Architect<time>2024 - Current</time></code></h4>
 <p>Since being promoted to Staff Architect, I have focused on cross-functional leadership and architectural governance alongside my team-based responsibilities:</p>
 <ul>
 <li><p>Architecture Review Process: Introduced a periodic architecture review of each team-owned domain, built around interactive sessions with the whole team. Findings become actionable tickets in the teams&#39; non-feature backlogs, and the administration is automated with an agentic AI workflow that is now shared with the wider architecture group.</p>
@@ -35,20 +51,20 @@ li>p{margin:0}
 </li>
 <li><p>Architecture lead for the new agent user interface project released in 2025, coordinating teams across four geographies and earning a Top Performance award from our parent company.</p>
 </li></ul>
-<h4><code>Senior Software Architect (2022 - 2024)</code></h4>
+<h4><code>Senior Software Architect<time>2022 - 2024</time></code></h4>
 <p>In 2022 I joined the architecture team in the apps organisation to take on a new challenge, practising consultative architecture with five assigned teams.</p>
 <ul>
 <li><p>Documented teams&#39; existing architecture and helped them plan the direction of the domains they own. Worked with the product team to plan future architecture and assess the technical feasibility of planned product enhancements.</p>
 </li>
 <li><p>Took ownership of the department-wide Tech Radar, which sets technical direction across the organisation.</p>
 </li></ul>
-<h4><code>Senior Software Engineer (2021 - 2022)</code></h4>
+<h4><code>Senior Software Engineer<time>2021 - 2022</time></code></h4>
 <ul>
 <li><p>When the department moved to stream-aligned teams, my team merged with another and took on the Agent Experience domain. Organised and updated this area of the product, which led to the team owning it. Led technically on WebRTC, contributed to the UI and supported the wider team, earning a promotion.</p>
 </li>
 <li><p>Shared the project&#39;s technical direction more widely, as many teams contribute to it. Authored the contributing guide, including a project-specific Tech Radar.</p>
 </li></ul>
-<h4><code>Software Engineer (2013 - 2021)</code></h4>
+<h4><code>Software Engineer<time>2013 - 2021</time></code></h4>
 <ul>
 <li><p>In my first two teams, worked as a Windows-based .NET Framework engineer, mainly on MVC projects. Focused on TDD, improved my C# and developed an interest in process improvement. Gained knowledge of our telephony stack, then began working on WebRTC call delivery.</p>
 </li>
@@ -56,24 +72,22 @@ li>p{margin:0}
 </li>
 <li><p>Following a team merge, my responsibilities widened to the agent UI used in our contact centres, along with its supporting services and browser extensions. Drove performance improvements to the interface and extracted its core code from our monolith so it could be deployed independently. During a hackathon, prototyped using the WebRTC offering of a company Vonage had acquired. Once it was proven, built a business case for leadership to implement it properly. The delivered work saves approximately $6m a year in fees to an external WebRTC vendor.</p>
 </li></ul>
-<h3>Hewlett Packard <em>(2011 - 2013)</em></h3>
+<h3>Hewlett Packard<time>2011 - 2013</time></h3>
 <p><code>Software Developer</code></p>
 <ul>
 <li>Developed parts of a new multi-threaded component in C++ on Red Hat Enterprise Linux. Gained knowledge of object-oriented design patterns and experience in unit testing, and took responsibility for the team&#39;s CI pipeline.</li></ul>
-<h3>Intel Corporation UK <em>(2007 - 2008)</em></h3>
+<h3>Intel Corporation UK<time>2007 - 2008</time></h3>
 <p><code>Technical Marketing Engineer</code></p>
 <ul>
 <li>Completed a one-year placement between my studies, running benchmarks to support marketing for desktop and server components.</li></ul>
-<hr>
-<h2>Education</h2>
-<p><code>Loughborough University (2005 - 2009)</code></p>
+</section><section><h2>Education</h2>
+<p><code>Loughborough University<time>2005 - 2009</time></code></p>
 <ul>
 <li>BEng (Hons) Electronic and Electrical Engineering, 2:1</li></ul>
-<hr>
-<h2>Skills</h2>
+</section><section><h2>Skills</h2>
 <h3>Languages, Frameworks and Technologies</h3>
 <p>C#, .NET, JavaScript, TypeScript, Svelte, React, Redux, Docker, MySQL, Microservices, AWS, GCP</p>
-<hr>
-<h2>Interests</h2>
+</section><section><h2>Interests</h2>
 <p>In my spare time, I enjoy running, working on personal projects, and spending time with my family.</p>
+</section>
 </html>
