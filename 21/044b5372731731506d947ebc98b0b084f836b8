@@ -1,0 +1,14 @@
+index.html
+  h_4b2a3dad7aa24f 21-22,25-51,57,75,78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "21044b5372731731506d947ebc98b0b084f836b8",
+  "prompts": {},
+  "humans": {
+    "h_4b2a3dad7aa24f": {
+      "author": "Ed Weston <eddweston@me.com>"
+    }
+  }
+}
