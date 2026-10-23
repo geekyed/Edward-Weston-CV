@@ -1,0 +1,22 @@
+.github/workflows/build.yml
+  h_4b2a3dad7aa24f 1-29
+README.md
+  h_4b2a3dad7aa24f 2-7
+build/build.sh
+  h_4b2a3dad7aa24f 1-35
+build/template.html
+  h_4b2a3dad7aa24f 1-20
+index.html
+  h_4b2a3dad7aa24f 1-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4a6103146bc6f5103a78e0316a85dcd805769bea",
+  "prompts": {},
+  "humans": {
+    "h_4b2a3dad7aa24f": {
+      "author": "Ed Weston <eddweston@me.com>"
+    }
+  }
+}
