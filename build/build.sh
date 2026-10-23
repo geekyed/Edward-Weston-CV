@@ -21,7 +21,7 @@ const fs = require("fs");
 const t = fs.readFileSync("build/template.html", "utf8");
 const raw = fs.readFileSync("build/content.html", "utf8").replace(/<\/li>\n<\/ul>/g, "</li></ul>");
 const [head, ...rest] = raw.split(/<hr>\n?/);
-const c = ("<header>" + head + "</header>" + rest.map(s => "<section>" + s + "</section>").join(""))
+const c = ("<header>" + head.replace("</p>", "</p><a class=\"d\" href=\"Edward-Weston-CV.pdf\">Download PDF</a>") + "</header>" + rest.map(s => "<section>" + s + "</section>").join(""))
   .replace(/<code>(.+?) \(([^)]+)\)<\/code>/g, "<code>$1<time>$2</time></code>")
   .replace(/ <em>\(([^)]+)\)<\/em>/g, "<time>$1</time>");
 const out = t.replace("{{content}}", () => c)
