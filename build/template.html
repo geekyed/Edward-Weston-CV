@@ -5,12 +5,12 @@ a{color:#111;text-decoration:none;background:linear-gradient(var(--b),var(--b)) 
 a:hover{background-size:100% 100%;color:#fff}
 header,section{display:grid;grid-template-columns:11rem 1fr;column-gap:2rem}
 header>*,section>*{grid-column:2}
-header{border-top:8px solid #111;padding-top:1rem}
-h1{grid-column:1/-1;font-size:clamp(2.8rem,10vw,5.5rem);line-height:.92;letter-spacing:-.04em;font-weight:800;margin:.6rem 0 1rem}
+header{padding-top:.5rem}
+h1{grid-column:1/-1;font-size:clamp(2rem,6vw,3.2rem);line-height:1;letter-spacing:-.03em;font-weight:800;margin:.4rem 0 1rem}
 h1+p{margin:0 0 1.2rem;font-weight:700}
 h1+p a{color:var(--b);background:none}
 h1+p a:hover{color:#111}
-header p{font-size:1.1rem;margin:0 0 1rem;max-width:42rem}
+header p{font-size:1.1rem;margin:0 0 1rem}
 section{border-top:1px solid #111;padding:1.4rem 0 .6rem;margin-top:1.5rem}
 h2{grid-column:1;grid-row:1;font-size:.75rem;text-transform:uppercase;letter-spacing:.14em;margin:.3rem 0 0}
 h2:before{content:"";display:inline-block;width:.6em;height:.6em;background:var(--b);margin-right:.6em}
@@ -30,8 +30,8 @@ li>p{margin:0}
 .d{position:absolute;top:1.8rem;right:1.2rem;background:var(--b);color:#fff;padding:.4rem .9rem;font-size:.85rem;font-weight:700;z-index:1}
 .d:hover{background:#111}
 @media(prefers-reduced-motion:no-preference){@keyframes u{from{opacity:0;transform:translateY(14px)}}header,section{animation:u .6s both}section:nth-of-type(2){animation-delay:.1s}section:nth-of-type(3){animation-delay:.2s}section:nth-of-type(4){animation-delay:.3s}}
-@media(max-width:640px){header,section{display:block}h2{margin-bottom:.8rem}.d{top:.8rem}}
-@media print{@page{size:A4;margin:14mm}*{print-color-adjust:exact;-webkit-print-color-adjust:exact;animation:none!important}body{font-size:9.5pt;line-height:1.4;padding:0;max-width:none;background:#fff}header,section{grid-template-columns:34mm 1fr;column-gap:6mm}h2{letter-spacing:.08em;font-size:7.5pt}h1{font-size:34pt}header p{font-size:10.5pt}section{margin-top:5mm;padding-top:4mm}section:nth-of-type(1) h3{font-size:14pt}h3 time{font-size:12pt}.d{display:none}h3,h4{break-after:avoid}li,h3{break-inside:avoid}}
+@media(max-width:640px){header,section{display:block}h2{margin-bottom:.8rem}.d{top:.8rem}header{padding-top:2.8rem}}
+@media print{@page{size:A4;margin:14mm}*{print-color-adjust:exact;-webkit-print-color-adjust:exact;animation:none!important}body{font-size:9.5pt;line-height:1.4;padding:0;max-width:none;background:#fff}header,section{grid-template-columns:34mm 1fr;column-gap:6mm}h2{letter-spacing:.08em;font-size:7.5pt}h1{font-size:24pt}header p{font-size:10.5pt}section{margin-top:5mm;padding-top:4mm}section:nth-of-type(1) h3{font-size:14pt}h3 time{font-size:12pt}.d{display:none}h3,h4{break-after:avoid}li,h3{break-inside:avoid}}
 </style><a class="d" href="Edward-Weston-CV.pdf">Download PDF</a>
 {{content}}
 </html>
