@@ -2,9 +2,7 @@
 
 [eddweston@me.com](mailto:eddweston@me.com)
 
-I enjoy working with a diverse group of people with different opinions who share a drive to find good solutions. I advocate agile development: shortening feedback loops and encouraging open, honest communication. I believe small commits and frequent small releases reduce risk and shorten the time it takes to deliver value to customers. I take on larger projects where I see technical or process impediments across the wider department.
-
-I am self-motivated and keep improving my technical knowledge and soft skills through reading, research and personal projects. Strong working relationships are critical to everyone's success, so I seek regular feedback from colleagues and reflect on my interactions with my teams and others.
+Staff Software Architect specialising in contact-centre and real-time communications platforms. Over 13 years at Vonage I've moved from engineer to architect by finding the biggest technical and process blockers and removing them. I led architecture for the new agent user interface, released in 2025, which uses event-carried state transfer to replace polling and give stronger guarantees that the UI holds the right data. In its first year it delivered over 4x its target, and it is gradually replacing our existing UI while opening a new market across many CRMs. Of the hundreds of people who delivered it across four geographies, I was one of four singled out for a Top Performance award from our parent company. I work directly with five teams, and I create the architecture processes that enable strong governance and facilitate their use across all 30 development teams: architecture reviews, component reliability tiers and the Tech Radar. I favour small, frequent releases and short feedback loops, and I aim to make teams more autonomous, not more dependent on architects.
 
 ***
 
@@ -16,15 +14,15 @@ Throughout my time at Vonage I have progressed through different teams and roles
 
 #### `Staff Software Architect (2024 - Current)`
 
-Since being promoted to Staff Architect, I have focused on cross-functional leadership and architectural governance alongside my team-based responsibilities:
+Since being promoted to Staff Architect, I have focused on cross-functional leadership and on creating architecture processes that enable strong governance, alongside my team-based responsibilities:
 
-* Architecture Review Process: Introduced a periodic architecture review of each team-owned domain, built around interactive sessions with the whole team. Findings become actionable tickets in the teams' non-feature backlogs, and the administration is automated with an agentic AI workflow that is now shared with the wider architecture group.
+* New Agent User Interface: Architecture lead for the agent UI released in 2025, coordinating teams across four geographies. Adopted event-carried state transfer to eliminate polling and give the UI stronger guarantees that it holds the right data. It exceeded its first-year commercial target by over 4x, and it is gradually replacing our existing UI while opening a new market across many CRMs. One of four people singled out for a Top Performance award from our parent company, from hundreds of contributors.
+
+* Architecture Review Process: Introduced a periodic architecture review of each team-owned domain, built around interactive sessions with the whole team. Findings become actionable tickets in the teams' non-feature backlogs, and the administration is automated with an agentic workflow that is now shared with the wider architecture group.
 
 * Non-Feature Work Prioritisation: Introduced a unified process for prioritising non-feature work (tech debt, vulnerabilities, availability and bugs) across my teams, so that time is allocated to the right tickets. Gained buy-in from the Director and Engineering Managers.
 
 * Component Reliability Categorisation: Designed and am rolling out a framework that classifies every platform component into reliability tiers with matching availability targets and declared dependencies. This ensures critical components are held to the resilience they need, improving the availability of the platform.
-
-* Architecture lead for the new agent user interface project released in 2025, coordinating teams across four geographies and earning a Top Performance award from our parent company.
 
 #### `Senior Software Architect (2022 - 2024)`
 
