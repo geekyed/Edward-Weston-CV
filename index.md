@@ -32,7 +32,7 @@ Case studies in helping teams reach decisions:
 
 * Real-time transcript persistence: The database could not cope with the volume of utterances, and Redis-only storage risked data loss. Over six months I helped the team weigh three options: Google's storage (tight GCP coupling), Redis with batched MySQL inserts (still loses data on Redis upgrades) and Kafka with batch consumers (more complex, small delay to the API). Having gathered the first consumer's requirements, I recommended an option and the team chose Kafka, which is now live. I encouraged the lead engineer to present it to the architecture forum.
 
-* Real-time messaging resilience: Two incidents in April 2026 left agents unable to answer calls, made worse by clients retrying at several layers. I asked the teams where retries were needed and why. The developers traced each layer themselves and agreed to retry in one place only, with back-off and jitter. The two minor outages since have had far less impact.
+* Real-time messaging resilience: Two incidents in April 2026 left agents unable to answer calls, made worse by clients retrying at several layers. I asked the teams where retries were needed and why. The developers traced each layer themselves and agreed to retry in one place only, with back-off and jitter, so a recovering service is not hit by a stampeding herd. The two minor outages since have had far less impact.
 
 #### `Senior Software Architect (2022 - 2024)`
 
