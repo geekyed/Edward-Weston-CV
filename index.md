@@ -10,7 +10,7 @@ Staff Software Architect specialising in contact-centre and real-time communicat
 
 ### Vonage _(2013 - Current)_
 
-Throughout my time at Vonage I have progressed through different teams and roles, taking on new challenges as my experience grew.
+13 years at Vonage, progressing from software engineer to Staff Software Architect.
 
 #### `Staff Software Architect (2024 - Current)`
 
@@ -34,29 +34,25 @@ In 2022 I joined the architecture team in the apps organisation to take on a new
 
 #### `Senior Software Engineer (2021 - 2022)`
 
-* When the department moved to stream-aligned teams, my team merged with another and took on the Agent Experience domain. Organised and updated this area of the product, which led to the team owning it. Led the implementation of a new provider for delivering calls to the browser using WebRTC, contributed to the UI and supported the wider team, earning a promotion.
-
-* Shared the project's technical direction more widely, as many teams contribute to it. Authored the contributing guide, including a project-specific Tech Radar.
+* Took on the Agent Experience domain when the department moved to stream-aligned teams and organised it until the team owned it. Prototyped a new calling provider at a hackathon using the offering of a company Vonage had acquired, built the business case, and led the implementation of a new provider for delivering calls to the browser using WebRTC, saving approximately $6m a year in fees to an external vendor. Authored the project's contributing guide and Tech Radar.
 
 #### `Software Engineer (2013 - 2021)`
 
-* In my first two teams, worked as a Windows-based .NET Framework engineer, mainly on MVC projects. Focused on TDD, improved my C# and developed an interest in process improvement. Gained knowledge of our telephony stack, then began working on delivering calls to the browser.
+* Core developer of the contact centre API platform, written in Go, which is still in use and handles approximately 260 million requests a day.
 
-* Learned Go and was a core developer of our contact centre API platform, which is still in use and handles approximately 260 million requests a day. Developed my front-end skills, learning JavaScript, React and Redux. Took ownership of a department-wide meeting to share knowledge and solve common problems across teams.
-
-* Following a team merge, my responsibilities widened to the agent UI used in our contact centres, along with its supporting services and browser extensions. Drove performance improvements to the interface and extracted its core code from our monolith so it could be deployed independently. During a hackathon, prototyped a new calling provider using the offering of a company Vonage had acquired. Once it was proven, built a business case for leadership to implement it properly. The delivered work saves approximately $6m a year in fees to an external vendor.
+* Owned the agent UI used in our contact centres, along with its supporting services and browser extensions. Improved its performance and extracted its core code from our monolith so it could be deployed independently.
 
 ### Hewlett Packard _(2011 - 2013)_
 
 `Software Developer`
 
-* Developed parts of a new multi-threaded component in C++ on Red Hat Enterprise Linux. Gained knowledge of object-oriented design patterns and experience in unit testing, and took responsibility for the team's CI pipeline.
+* Built parts of a multi-threaded C++ component on Red Hat Enterprise Linux and owned the team's CI pipeline.
 
 ### Intel Corporation UK _(2007 - 2008)_
 
 `Technical Marketing Engineer`
 
-* Completed a one-year placement between my studies, running benchmarks to support marketing for desktop and server components.
+* One-year placement benchmarking desktop and server components.
 
 ***
 
