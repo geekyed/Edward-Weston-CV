@@ -1,0 +1,16 @@
+build/template.html
+  h_4b2a3dad7aa24f 1
+index.md
+  h_4b2a3dad7aa24f 37,43,47,73,75-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e024ddc64c8ea9c6fd4ecc52e0969cd73649aff5",
+  "prompts": {},
+  "humans": {
+    "h_4b2a3dad7aa24f": {
+      "author": "Ed Weston <eddweston@me.com>"
+    }
+  }
+}
