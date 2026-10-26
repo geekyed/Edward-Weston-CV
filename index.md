@@ -2,7 +2,7 @@
 
 [eddweston@me.com](mailto:eddweston@me.com)
 
-Staff Software Architect with 13 years at Vonage, specialising in contact-centre and real-time communications platforms. I led architecture for the agent user interface released in 2025. It delivered over 4x its first-year target and earned me a Top Performance award. I create the architecture reviews, reliability tiers and Tech Radar that help autonomous teams make strong decisions. I practise consultative architecture: teams own their solutions, and I help them reach good ones.
+Staff Software Architect specialising in contact-centre and real-time communications platforms. I led architecture for the agent user interface released in 2025. It delivered over 4x its first-year target and earned me a Top Performance award. I create the architecture reviews, reliability tiers and Tech Radar that help autonomous teams make strong decisions. I practise consultative architecture: teams own their solutions, and I help them reach good ones.
 
 ***
 
@@ -10,7 +10,7 @@ Staff Software Architect with 13 years at Vonage, specialising in contact-centre
 
 ### Vonage _(2013 - Current)_
 
-13 years at Vonage, progressing from software engineer to Staff Software Architect.
+Progressed from software engineer to Staff Software Architect across APIs, agent interfaces and architecture.
 
 #### `Staff Software Architect (2024 - Current)`
 
@@ -25,6 +25,8 @@ Since being promoted to Staff Architect, I have focused on cross-functional lead
 * Non-Feature Work Prioritisation: Introduced a process, agreed with the Director and Engineering Managers, for prioritising non-feature work (tech debt, vulnerabilities, availability and bugs) across my value stream. Facilitated sessions with two teams so far, prioritising 20+ tickets each, and leadership can now see the feature and non-feature split. Shared with the wider architecture group as good practice.
 
 * Component Reliability Categorisation: Designed a framework that classifies every platform component into reliability tiers with matching availability targets and declared dependencies. Shaped the approach in consultation with many teams and piloted it with one team before rolling it out to all 30 development teams, with categorisation now raised for 316 components. This ensures the most critical components are identified and held to the resilience they need.
+
+* Security Assessment with AI: Built a repeatable AI skill that assessed the authorisation of every public endpoint across 24 services in four teams. Raised a ticket for each team and left them to break the findings into service work.
 
 Case studies in helping teams reach decisions:
 
