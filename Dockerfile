@@ -1,7 +1,7 @@
 # Packages the already-built CV into a tiny static server.
 #
 # index.html and Edward-Weston-CV.pdf are produced by build/build.sh. CI runs
-# that in the Pages job and hands the output to this build as the `cv-site`
+# that in the build job and hands the output to this build as the `cv-site`
 # artifact, so there is no Node or Chrome in the image. Locally, run
 # ./build/build.sh before `docker compose up --build`.
 FROM nginxinc/nginx-unprivileged:1.30-alpine

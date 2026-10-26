@@ -1,23 +1,23 @@
 # Deploying the CV
 
-There are two deployments from one build:
+The CV is served only from the homelab. GitHub Pages was retired once this
+deployment was live.
 
 | Target | What runs | How it updates |
 |---|---|---|
-| GitHub Pages | `index.html` + `Edward-Weston-CV.pdf` | The `build` job uploads `_site` to Pages. |
 | Homelab | `ghcr.io/geekyed/edward-weston-cv` | The mini polls `:main` every 300 seconds. |
 
-Both use the same files produced by `build/build.sh`, so the public Pages copy
-and the homelab copy cannot drift.
+The image is built from the files produced by `build/build.sh`.
 
 ## The image
 
 `Dockerfile` is a thin `nginx-unprivileged` image. It copies the built files; it
 does not run Node or Chrome. The `build` job in `.github/workflows/build.yml`
-builds the site, uploads `_site` as the `cv-site` artifact, and the `publish` job
-calls the reusable workflow in [homelab-deploy](https://github.com/geekyed/homelab-deploy)
-with `artifact: cv-site`. That workflow unpacks the artifact into the build
-context, builds `linux/arm64`, and pushes `:main` and `:<sha>` to GHCR.
+builds the site and uploads `index.html` and `Edward-Weston-CV.pdf` as the
+`cv-site` artifact. The `publish` job calls the reusable workflow in
+[homelab-deploy](https://github.com/geekyed/homelab-deploy) with
+`artifact: cv-site`. That workflow unpacks the artifact into the build context,
+builds `linux/arm64`, and pushes `:main` and `:<sha>` to GHCR.
 
 The homelab side lives in that repo: `services/edward-weston-cv/compose.yml` is
 the deployed contract, and `bin/deploy` pulls it, waits for the image healthcheck,

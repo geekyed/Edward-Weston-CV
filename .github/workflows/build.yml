@@ -1,4 +1,4 @@
-name: Build and deploy CV
+name: Build and publish CV
 
 on:
   push:
@@ -7,11 +7,9 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: cv
   cancel-in-progress: true
 
 jobs:
@@ -28,31 +26,16 @@ jobs:
         run: ./build/build.sh
         env:
           CHROME: google-chrome
-      - name: Collect site files
-        run: |
-          mkdir _site
-          cp index.html Edward-Weston-CV.pdf _site/
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      # The image job needs the same files. Uploading them as an artifact keeps
+      # The image job needs the built files. Uploading them as an artifact keeps
       # the Docker build free of Node and Chrome, so it stays fast under QEMU.
       - name: Upload site for the image build
         uses: actions/upload-artifact@v4
         with:
           name: cv-site
-          path: _site
+          path: |
+            index.html
+            Edward-Weston-CV.pdf
           retention-days: 1
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
 
   publish:
     needs: build
