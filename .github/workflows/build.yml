@@ -35,6 +35,14 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+      # The image job needs the same files. Uploading them as an artifact keeps
+      # the Docker build free of Node and Chrome, so it stays fast under QEMU.
+      - name: Upload site for the image build
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-site
+          path: _site
+          retention-days: 1
 
   deploy:
     needs: build
@@ -45,3 +53,14 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  publish:
+    needs: build
+    permissions:
+      # A called workflow can only narrow these; see homelab-deploy's publish.yml.
+      contents: read
+      packages: write
+    uses: geekyed/homelab-deploy/.github/workflows/publish.yml@main
+    with:
+      image: ghcr.io/geekyed/edward-weston-cv
+      artifact: cv-site

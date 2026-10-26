@@ -1,0 +1,15 @@
+# Dev-only compose file. The mini runs the image from homelab-deploy; this is
+# only for building and previewing the container locally.
+#
+#   ./build/build.sh
+#   docker compose up --build
+#   open http://127.0.0.1:8081
+
+services:
+  cv:
+    build:
+      context: .
+    image: edward-weston-cv:dev
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8081:8080"
