@@ -28,9 +28,9 @@ Since being promoted to Staff Architect, I have focused on cross-functional lead
 
 In 2022 I joined the architecture team in the apps organisation to take on a new challenge, practising consultative architecture with five assigned teams.
 
-* Documented teams' existing architecture and helped them plan the direction of the domains they own. Worked with the product team to plan future architecture and assess the technical feasibility of planned product enhancements.
+* Documented the architecture of eight domains as C4 diagrams in Lucidchart and helped the owning teams plan their future direction. Worked with the product team to plan future architecture and assess the technical feasibility of planned product enhancements.
 
-* Took ownership of the department-wide Tech Radar, which sets technical direction across the organisation.
+* Took ownership of the department-wide Tech Radar, which sets technical direction across the organisation, and continue to run it as Staff Architect. It now covers 99 technologies across four quadrants, with changes proposed openly as GitHub issues and decided at the architecture forum.
 
 #### `Senior Software Engineer (2021 - 2022)`
 
