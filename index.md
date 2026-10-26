@@ -34,17 +34,17 @@ In 2022 I joined the architecture team in the apps organisation to take on a new
 
 #### `Senior Software Engineer (2021 - 2022)`
 
-* When the department moved to stream-aligned teams, my team merged with another and took on the Agent Experience domain. Organised and updated this area of the product, which led to the team owning it. Led technically on WebRTC, contributed to the UI and supported the wider team, earning a promotion.
+* When the department moved to stream-aligned teams, my team merged with another and took on the Agent Experience domain. Organised and updated this area of the product, which led to the team owning it. Led the implementation of a new provider for delivering calls to the browser using WebRTC, contributed to the UI and supported the wider team, earning a promotion.
 
 * Shared the project's technical direction more widely, as many teams contribute to it. Authored the contributing guide, including a project-specific Tech Radar.
 
 #### `Software Engineer (2013 - 2021)`
 
-* In my first two teams, worked as a Windows-based .NET Framework engineer, mainly on MVC projects. Focused on TDD, improved my C# and developed an interest in process improvement. Gained knowledge of our telephony stack, then began working on WebRTC call delivery.
+* In my first two teams, worked as a Windows-based .NET Framework engineer, mainly on MVC projects. Focused on TDD, improved my C# and developed an interest in process improvement. Gained knowledge of our telephony stack, then began working on delivering calls to the browser.
 
 * Learned Go and was a core developer of our contact centre API platform, which is still in use and handles approximately 260 million requests a day. Developed my front-end skills, learning JavaScript, React and Redux. Took ownership of a department-wide meeting to share knowledge and solve common problems across teams.
 
-* Following a team merge, my responsibilities widened to the agent UI used in our contact centres, along with its supporting services and browser extensions. Drove performance improvements to the interface and extracted its core code from our monolith so it could be deployed independently. During a hackathon, prototyped using the WebRTC offering of a company Vonage had acquired. Once it was proven, built a business case for leadership to implement it properly. The delivered work saves approximately $6m a year in fees to an external WebRTC vendor.
+* Following a team merge, my responsibilities widened to the agent UI used in our contact centres, along with its supporting services and browser extensions. Drove performance improvements to the interface and extracted its core code from our monolith so it could be deployed independently. During a hackathon, prototyped a new calling provider using the offering of a company Vonage had acquired. Once it was proven, built a business case for leadership to implement it properly. The delivered work saves approximately $6m a year in fees to an external vendor.
 
 ### Hewlett Packard _(2011 - 2013)_
 
@@ -70,9 +70,11 @@ In 2022 I joined the architecture team in the apps organisation to take on a new
 
 ## Skills
 
-### Languages, Frameworks and Technologies
+**Languages:** C#, Go, TypeScript, JavaScript
 
-C#, .NET, JavaScript, TypeScript, Svelte, React, Redux, Docker, MySQL, Microservices, AWS, GCP
+**Frameworks:** .NET, React, Redux, Svelte
+
+**Cloud and data:** AWS, GCP, Docker, MySQL, Microservices
 
 ***
 
